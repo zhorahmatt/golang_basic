@@ -27,4 +27,20 @@ func main()  {
 	} else {
 		fmt.Println("nilai kurang dari 15")
 	}
+
+	//switch case conditional
+	var score = 33
+
+	switch score {
+	case 30,31,32,33:
+		fmt.Println("score is 30")
+	case 34,35:
+		fmt.Println("score is 32")
+		fallthrough
+	default:
+		{
+			fmt.Println("score is not detected")
+			fmt.Println("try again !!!")
+		}
+	}
 }
