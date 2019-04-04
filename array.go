@@ -28,4 +28,7 @@ func main()  {
 
 	fmt.Println(fruits)
 	fmt.Println(len(fruits))
+
+	var numbers = [...]int{2,3,4,5,6} //inisialisasi tanpa jumlah index sebelumnya
+	
 }
